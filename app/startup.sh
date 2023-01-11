@@ -1,5 +1,6 @@
 #! /bin/sh
 
+rm /tmp/* /etc/cron.d/duc-index
 touch /var/log/duc.log
 
 echo "Starting initial recursive scan"
